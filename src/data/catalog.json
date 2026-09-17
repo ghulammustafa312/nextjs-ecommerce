@@ -1,0 +1,143 @@
+{
+    "market": "Harbor Market",
+    "city": "Karachi",
+    "updatedAt": "2026-09-17",
+    "categories": [
+      {
+        "id": "fresh-produce",
+        "name": "Fresh Produce",
+        "description": "Fruit and vegetables from local stalls.",
+        "items": [
+          {
+            "id": "mango-sindhri",
+            "name": "Sindhri Mango Box",
+            "price": 1200,
+            "currency": "PKR",
+            "unit": "5 kg",
+            "image": "https://images.unsplash.com/photo-1553279768-865429fa0078?w=800",
+            "inStock": true,
+            "tags": ["seasonal", "sweet"],
+            "seller": { "id": "s1", "name": "Korangi Farms", "rating": 4.8 },
+            "details": { "origin": "Mirpurkhas", "shelfLifeDays": 5 }
+          },
+          {
+            "id": "tomato-vine",
+            "name": "Vine Tomatoes",
+            "price": 180,
+            "currency": "PKR",
+            "unit": "1 kg",
+            "image": "https://images.unsplash.com/photo-1546470427-e26264be0b14?w=800",
+            "inStock": true,
+            "tags": ["daily"],
+            "seller": { "id": "s2", "name": "Saddar Fresh", "rating": 4.4 },
+            "details": { "origin": "Thatta", "shelfLifeDays": 4 }
+          },
+          {
+            "id": "spinach-bunch",
+            "name": "Spinach Bunch",
+            "price": 80,
+            "currency": "PKR",
+            "unit": "1 bunch",
+            "image": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=800",
+            "inStock": false,
+            "tags": ["leafy"],
+            "seller": { "id": "s1", "name": "Korangi Farms", "rating": 4.8 },
+            "details": { "origin": "Malir", "shelfLifeDays": 2 }
+          }
+        ]
+      },
+      {
+        "id": "bakery",
+        "name": "Bakery",
+        "description": "Bread and sweets baked the same morning.",
+        "items": [
+          {
+            "id": "naan-plain",
+            "name": "Plain Naan (4 pcs)",
+            "price": 120,
+            "currency": "PKR",
+            "unit": "pack",
+            "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800",
+            "inStock": true,
+            "tags": ["hot"],
+            "seller": { "id": "s3", "name": "Tandoor House", "rating": 4.6 },
+            "details": { "origin": "Burns Road", "shelfLifeDays": 1 }
+          },
+          {
+            "id": "osmania-biscuit",
+            "name": "Osmania Biscuits",
+            "price": 350,
+            "currency": "PKR",
+            "unit": "400 g",
+            "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800",
+            "inStock": true,
+            "tags": ["tea", "gift"],
+            "seller": { "id": "s4", "name": "Old City Bakery", "rating": 4.9 },
+            "details": { "origin": "Hyderabad recipe", "shelfLifeDays": 14 }
+          }
+        ]
+      },
+      {
+        "id": "dairy",
+        "name": "Dairy",
+        "description": "Milk, yogurt, and cheese.",
+        "items": [
+          {
+            "id": "full-cream-milk",
+            "name": "Full Cream Milk",
+            "price": 260,
+            "currency": "PKR",
+            "unit": "1 L",
+            "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?w=800",
+            "inStock": true,
+            "tags": ["chilled"],
+            "seller": { "id": "s5", "name": "Dawn Dairy", "rating": 4.3 },
+            "details": { "origin": "Sindh", "shelfLifeDays": 3 }
+          },
+          {
+            "id": "greek-yogurt",
+            "name": "Thick Yogurt Tub",
+            "price": 220,
+            "currency": "PKR",
+            "unit": "500 g",
+            "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800",
+            "inStock": true,
+            "tags": ["chilled", "protein"],
+            "seller": { "id": "s5", "name": "Dawn Dairy", "rating": 4.3 },
+            "details": { "origin": "Karachi", "shelfLifeDays": 7 }
+          }
+        ]
+      },
+      {
+        "id": "home",
+        "name": "Home & Kitchen",
+        "description": "Small goods for the house.",
+        "items": [
+          {
+            "id": "steel-kettle",
+            "name": "Steel Kettle",
+            "price": 1890,
+            "currency": "PKR",
+            "unit": "1 pc",
+            "image": "https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?w=800",
+            "inStock": true,
+            "tags": ["durable"],
+            "seller": { "id": "s6", "name": "Utility Mart", "rating": 4.1 },
+            "details": { "origin": "Local", "shelfLifeDays": null }
+          },
+          {
+            "id": "cotton-towel",
+            "name": "Cotton Towel Set",
+            "price": 990,
+            "currency": "PKR",
+            "unit": "2 pcs",
+            "image": "https://images.unsplash.com/photo-1582735689369-4febe64d4854?w=800",
+            "inStock": false,
+            "tags": ["home"],
+            "seller": { "id": "s6", "name": "Utility Mart", "rating": 4.1 },
+            "details": { "origin": "Faisalabad", "shelfLifeDays": null }
+          }
+        ]
+      }
+    ]
+  }
